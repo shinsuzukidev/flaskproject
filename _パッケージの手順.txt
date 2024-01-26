@@ -1,0 +1,5 @@
+# インストールされているパッケージの一覧をrequirements.txtファイルに出力する
+pip freeze > requrements.txt
+
+# requirements.txtファイルに記述されているパッケージをインストールする
+pip install -r requirements.txt

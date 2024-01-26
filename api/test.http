@@ -1,0 +1,14 @@
+###
+
+GET http://localhost:50001/user/sato HTTP/1.1
+
+###
+
+POST http://localhost:50001/regist_user HTTP/1.1
+content-type: application/json
+
+{
+    "name": "sato"
+}
+
+###
